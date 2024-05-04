@@ -1,0 +1,4 @@
+Za input: 4*-2 kao i 4*(-2) output je ERROR
+daljim testiranjem sa drugim brojevima i slozenijim operacijama kao npr 4*(9-2)/3 ponovo se javlja isti output
+Ovim testiranjima ustanovljeno je da se output ERROR javlja u operacijama sa negativnim brojevima i operacijama sa zagradama
+Pri deljenju broja sa nulom (2/0) daje output Infinity umesto not defined
