@@ -1,0 +1,44 @@
+LOC Calculator + Start = 214 lines
+
+ Calculator.java
+
+ br. ivica = 14
+ br. cvorova = 14
+
+ Cyclomatic complexity M = 14 - 14 + 2 = 2
+ Cognitive complexity 2
+
+LOC 188 lines
+
+ Code smell
+
+High:
+18.: Rename method "ToString" to prevent any misunderstanding/clash with method "toString" defined in superclass "java.lang.Object".
+
+Medium:
+4.: Add a private constructor to hide the implicit public one
+
+Low:
+18.: Rename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$
+24.: Rename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.
+70.: Immediately return this expression instead of assigning it to the temporary variable "textResult".
+74.: Rename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'
+183.: Remove this redundant jump.
+
+ Start.java
+
+ br. ivica = 9
+ br. cvorova = 11
+
+ Cyclomatic complexity M = 9 - 11 + 2 = 0
+ Cognitive complexity 1
+
+LOC 26 lines
+
+Code smell
+
+Medium:
+8.: Replace this use of System.out by a logger.
+19.: Replace this use of System.out by a logger.
+6.: Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.
+
